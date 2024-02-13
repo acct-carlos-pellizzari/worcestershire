@@ -1,0 +1,2559 @@
+[
+  {
+    "properties": [
+      {
+        "control_type": "integer",
+        "label": "State",
+        "parse_output": "integer_conversion",
+        "type": "integer",
+        "name": "state"
+      },
+      {
+        "properties": [
+          {
+            "control_type": "integer",
+            "label": "splitAt",
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "splitAt",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "splitAt"
+            },
+            "type": "integer",
+            "name": "splitAt",
+            "optional": false,
+            "parse_output": "integer_conversion"
+          },
+          {
+            "control_type": "text",
+            "label": "Is splittable",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Is splittable",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "isSplittable"
+            },
+            "type": "boolean",
+            "name": "isSplittable"
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state",
+                "optional": false
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "integer",
+                    "label": "ID",
+                    "parse_output": "integer_conversion",
+                    "type": "integer",
+                    "name": "id",
+                    "optional": false
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Text",
+                    "type": "string",
+                    "name": "text"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Icon",
+                    "type": "string",
+                    "name": "icon"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Icon small",
+                    "type": "string",
+                    "name": "iconSmall"
+                  },
+                  {
+                    "control_type": "integer",
+                    "label": "Order",
+                    "parse_output": "integer_conversion",
+                    "type": "integer",
+                    "name": "order",
+                    "optional": false
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Abbreviation",
+                    "type": "string",
+                    "name": "abbreviation"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Cart text",
+                    "type": "string",
+                    "name": "cartText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "URL part",
+                    "type": "string",
+                    "name": "urlPart"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Curtain heading",
+            "type": "object",
+            "name": "curtainHeading"
+          },
+          {
+            "control_type": "number",
+            "label": "ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "id"
+          },
+          {
+            "control_type": "number",
+            "label": "Colour ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "colourId"
+          },
+          {
+            "control_type": "number",
+            "label": "Supplier ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "supplierId"
+          },
+          {
+            "control_type": "number",
+            "label": "Slat ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "slatId"
+          },
+          {
+            "control_type": "text",
+            "label": "Title",
+            "type": "string",
+            "name": "title"
+          },
+          {
+            "control_type": "text",
+            "label": "Is made to measure",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Is made to measure",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "isMadeToMeasure"
+            },
+            "type": "boolean",
+            "name": "isMadeToMeasure"
+          },
+          {
+            "control_type": "number",
+            "label": "Min width",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "minWidth"
+          },
+          {
+            "control_type": "number",
+            "label": "Min drop",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "minDrop"
+          },
+          {
+            "control_type": "number",
+            "label": "Max drop",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "maxDrop"
+          },
+          {
+            "control_type": "number",
+            "label": "Max width",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "maxWidth"
+          },
+          {
+            "control_type": "text",
+            "label": "Custom page title",
+            "type": "string",
+            "name": "customPageTitle"
+          },
+          {
+            "control_type": "number",
+            "label": "Fabric weight",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "fabricWeight"
+          },
+          {
+            "control_type": "text",
+            "label": "Gallery image",
+            "type": "string",
+            "name": "galleryImage"
+          },
+          {
+            "control_type": "text",
+            "label": "Gallery image URL",
+            "type": "string",
+            "name": "galleryImageUrl"
+          },
+          {
+            "control_type": "number",
+            "label": "Status ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "statusId"
+          },
+          {
+            "control_type": "text",
+            "label": "Is complete",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Is complete",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "isComplete"
+            },
+            "type": "boolean",
+            "name": "isComplete"
+          },
+          {
+            "control_type": "text",
+            "label": "Delivery information",
+            "type": "string",
+            "name": "deliveryInformation"
+          },
+          {
+            "control_type": "text",
+            "label": "Show on web",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Show on web",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "showOnWeb"
+            },
+            "type": "boolean",
+            "name": "showOnWeb"
+          },
+          {
+            "control_type": "number",
+            "label": "Max turned drop",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "maxTurnedDrop"
+          },
+          {
+            "control_type": "number",
+            "label": "Max turned width",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "maxTurnedWidth"
+          },
+          {
+            "control_type": "text",
+            "label": "Site",
+            "type": "string",
+            "name": "site"
+          },
+          {
+            "control_type": "number",
+            "label": "Sort order",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sortOrder"
+          },
+          {
+            "control_type": "text",
+            "label": "Description",
+            "type": "string",
+            "name": "description"
+          },
+          {
+            "control_type": "text",
+            "label": "Barcode",
+            "type": "string",
+            "name": "barcode"
+          },
+          {
+            "control_type": "number",
+            "label": "Max trim",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "maxTrim"
+          },
+          {
+            "control_type": "text",
+            "label": "Image",
+            "type": "string",
+            "name": "image"
+          },
+          {
+            "control_type": "number",
+            "label": "Image width",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "imageWidth"
+          },
+          {
+            "control_type": "number",
+            "label": "Image drop",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "imageDrop"
+          },
+          {
+            "control_type": "text",
+            "label": "Trim to width",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Trim to width",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "trimToWidth"
+            },
+            "type": "boolean",
+            "name": "trimToWidth"
+          },
+          {
+            "control_type": "number",
+            "label": "Trim to width price table ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "trimToWidthPriceTableId"
+          },
+          {
+            "control_type": "text",
+            "label": "Trim to width delivery",
+            "type": "string",
+            "name": "trimToWidthDelivery"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample available",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Sample available",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "sampleAvailable"
+            },
+            "type": "boolean",
+            "name": "sampleAvailable"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample location",
+            "type": "string",
+            "name": "sampleLocation"
+          },
+          {
+            "control_type": "text",
+            "label": "Display fit type",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Display fit type",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "displayFitType"
+            },
+            "type": "boolean",
+            "name": "displayFitType"
+          },
+          {
+            "control_type": "number",
+            "label": "Stack type",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "stackType"
+          },
+          {
+            "control_type": "number",
+            "label": "Control option ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "controlOptionId"
+          },
+          {
+            "control_type": "text",
+            "label": "Show recess",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Show recess",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "showRecess"
+            },
+            "type": "boolean",
+            "name": "showRecess"
+          },
+          {
+            "control_type": "text",
+            "label": "Tapes available",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Tapes available",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "tapesAvailable"
+            },
+            "type": "boolean",
+            "name": "tapesAvailable"
+          },
+          {
+            "control_type": "text",
+            "label": "Tape colour",
+            "type": "string",
+            "name": "tapeColour"
+          },
+          {
+            "control_type": "text",
+            "label": "Tape image",
+            "type": "string",
+            "name": "tapeImage"
+          },
+          {
+            "control_type": "number",
+            "label": "Tape price table ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "tapePriceTableId"
+          },
+          {
+            "control_type": "text",
+            "label": "Product discount",
+            "type": "string",
+            "name": "productDiscount"
+          },
+          {
+            "control_type": "text",
+            "label": "Mitred returns available",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Mitred returns available",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "mitredReturnsAvailable"
+            },
+            "type": "boolean",
+            "name": "mitredReturnsAvailable"
+          },
+          {
+            "control_type": "text",
+            "label": "Finials for curtain poles",
+            "type": "string",
+            "name": "finialsForCurtainPoles"
+          },
+          {
+            "control_type": "number",
+            "label": "Final length",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "finalLength"
+          },
+          {
+            "control_type": "text",
+            "label": "Brackets curtain poles",
+            "type": "string",
+            "name": "bracketsCurtainPoles"
+          },
+          {
+            "control_type": "number",
+            "label": "Bracket projection",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "bracketProjection"
+          },
+          {
+            "control_type": "number",
+            "label": "Bracket height",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "bracketHeight"
+          },
+          {
+            "control_type": "number",
+            "label": "Accessory",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "accessory"
+          },
+          {
+            "control_type": "number",
+            "label": "Ready made price from",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "readyMadePriceFrom"
+          },
+          {
+            "control_type": "text",
+            "label": "Swatch image",
+            "type": "string",
+            "name": "swatchImage"
+          },
+          {
+            "control_type": "number",
+            "label": "Swatch image width",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "swatchImageWidth"
+          },
+          {
+            "control_type": "number",
+            "label": "Swatch image drop",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "swatchImageDrop"
+          },
+          {
+            "control_type": "text",
+            "label": "Use tape price table",
+            "type": "string",
+            "name": "useTapePriceTable"
+          },
+          {
+            "control_type": "number",
+            "label": "Option mitred returns",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "optionMitredReturns"
+          },
+          {
+            "control_type": "text",
+            "label": "Mitred returns price table",
+            "type": "string",
+            "name": "mitredReturnsPriceTable"
+          },
+          {
+            "control_type": "text",
+            "label": "Supplier max width",
+            "type": "string",
+            "name": "supplierMaxWidth"
+          },
+          {
+            "control_type": "text",
+            "label": "Supplier max drop",
+            "type": "string",
+            "name": "supplierMaxDrop"
+          },
+          {
+            "control_type": "number",
+            "label": "Best buy",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "bestBuy"
+          },
+          {
+            "control_type": "number",
+            "label": "Display as made to measure",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "displayAsMadeToMeasure"
+          },
+          {
+            "control_type": "number",
+            "label": "Product ready made",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "productReadyMade"
+          },
+          {
+            "control_type": "number",
+            "label": "Trim to width to made to measure on max size",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "trimToWidthToMadeToMeasureOnMaxSize"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample minimum stock level",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleMinimumStockLevel"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample actual stock level",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleActualStockLevel"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample default order quantity",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleDefaultOrderQuantity"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample on order",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Sample on order",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "sampleOnOrder"
+            },
+            "type": "boolean",
+            "name": "sampleOnOrder"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample date ordered",
+            "type": "string",
+            "name": "sampleDateOrdered"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample order file ref",
+            "type": "string",
+            "name": "sampleOrderFileRef"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample quantity order",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleQuantityOrder"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample rack number",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleRackNumber"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample bay number",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleBayNumber"
+          },
+          {
+            "control_type": "text",
+            "label": "Sample blind type override",
+            "type": "string",
+            "name": "sampleBlindTypeOverride"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample size",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleSize"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample order quantity",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleOrderQuantity"
+          },
+          {
+            "control_type": "number",
+            "label": "Made to measure supplier dispatch days",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "madeToMeasureSupplierDispatchDays"
+          },
+          {
+            "control_type": "number",
+            "label": "Ready made supplier dispatch days",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "readyMadeSupplierDispatchDays"
+          },
+          {
+            "control_type": "text",
+            "label": "Date out of stock",
+            "render_input": "date_time_conversion",
+            "parse_output": "date_time_conversion",
+            "type": "date_time",
+            "name": "dateOutOfStock"
+          },
+          {
+            "control_type": "text",
+            "label": "Date back in stock",
+            "render_input": "date_time_conversion",
+            "parse_output": "date_time_conversion",
+            "type": "date_time",
+            "name": "dateBackInStock"
+          },
+          {
+            "control_type": "number",
+            "label": "Stock last update",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "stockLastUpdate"
+          },
+          {
+            "control_type": "text",
+            "label": "Stock comments",
+            "type": "string",
+            "name": "stockComments"
+          },
+          {
+            "control_type": "number",
+            "label": "Default tape product ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "defaultTapeProductId"
+          },
+          {
+            "control_type": "text",
+            "label": "Product first visible",
+            "type": "string",
+            "name": "productFirstVisible"
+          },
+          {
+            "control_type": "text",
+            "label": "Alt bd blind type code",
+            "type": "string",
+            "name": "altBdBlindTypeCode"
+          },
+          {
+            "control_type": "text",
+            "label": "Alt bd fabric code",
+            "type": "string",
+            "name": "altBdFabricCode"
+          },
+          {
+            "control_type": "text",
+            "label": "Alt order output text",
+            "type": "string",
+            "name": "altOrderOutputText"
+          },
+          {
+            "control_type": "number",
+            "label": "Curtain heading ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "curtainHeadingId"
+          },
+          {
+            "control_type": "number",
+            "label": "Delivery types available",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "deliveryTypesAvailable"
+          },
+          {
+            "control_type": "text",
+            "label": "Dispatch overidden comment",
+            "type": "string",
+            "name": "dispatchOveriddenComment"
+          },
+          {
+            "control_type": "text",
+            "label": "Dispatch overidden",
+            "render_input": {},
+            "parse_output": {},
+            "toggle_hint": "Select from option list",
+            "toggle_field": {
+              "label": "Dispatch overidden",
+              "control_type": "text",
+              "toggle_hint": "Use custom value",
+              "type": "boolean",
+              "name": "dispatchOveridden"
+            },
+            "type": "boolean",
+            "name": "dispatchOveridden"
+          },
+          {
+            "control_type": "text",
+            "label": "Standard ordering options",
+            "type": "string",
+            "name": "standardOrderingOptions"
+          },
+          {
+            "control_type": "number",
+            "label": "Sample depth",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sampleDepth"
+          },
+          {
+            "control_type": "number",
+            "label": "Dispatch day ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "dispatchDayId"
+          },
+          {
+            "control_type": "number",
+            "label": "Made to measure dispatch day ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "madeToMeasureDispatchDayId"
+          },
+          {
+            "control_type": "number",
+            "label": "Ready made dispatch day ID",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "readyMadeDispatchDayId"
+          },
+          {
+            "control_type": "number",
+            "label": "Sure size available",
+            "parse_output": "float_conversion",
+            "type": "number",
+            "name": "sureSizeAvailable"
+          },
+          {
+            "control_type": "integer",
+            "label": "Visibility",
+            "parse_output": "integer_conversion",
+            "name": "visibility",
+            "type": "integer",
+            "optional": false
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "Retail",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "retail"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Cost",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "cost"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Rrp",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "rrp"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "From price",
+            "type": "object",
+            "name": "fromPrice"
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "id"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Range ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "rangeId"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Name",
+                    "type": "string",
+                    "name": "name"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Image",
+                    "type": "string",
+                    "name": "image"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Image URL",
+                    "name": "imageUrl",
+                    "type": "string",
+                    "optional": true
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Image width",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "imageWidth"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Image drop",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "imageDrop"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "We say",
+                    "type": "string",
+                    "name": "weSay"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Seo colour description",
+                    "type": "string",
+                    "name": "seoColourDescription"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Tech spec text",
+                    "type": "string",
+                    "name": "techSpecText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Show on web",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "Show on web",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "showOnWeb"
+                    },
+                    "type": "boolean",
+                    "name": "showOnWeb"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Supplier colour name",
+                    "type": "string",
+                    "name": "supplierColourName"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Order output text",
+                    "type": "string",
+                    "name": "orderOutputText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Blind type description",
+                    "type": "string",
+                    "name": "blindTypeDescription"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Blind type code",
+                    "type": "string",
+                    "name": "blindTypeCode"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Fabric description",
+                    "type": "string",
+                    "name": "fabricDescription"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Fabric code",
+                    "type": "string",
+                    "name": "fabricCode"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Order by",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "orderBy"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Supplier logo",
+                    "type": "string",
+                    "name": "supplierLogo"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Supplier logo width",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "supplierLogoWidth"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Supplier logo height",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "supplierLogoHeight"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour bg image",
+                    "type": "string",
+                    "name": "colourBgImage"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour bg image width",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourBgImageWidth"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour bg image height",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourBgImageHeight"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour acc bg image",
+                    "type": "string",
+                    "name": "colourAccBgImage"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour acc bg image width",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourAccBgImageWidth"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour acc bg image height",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourAccBgImageHeight"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Supplier colour ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "supplierColourId"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour order sort",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourOrderSort"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Is top forty",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "isTopForty"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour video",
+                    "type": "string",
+                    "name": "colourVideo"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour keywords",
+                    "type": "string",
+                    "name": "colourKeywords"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "No follow",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "noFollow"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Our world text",
+                    "type": "string",
+                    "name": "ourWorldText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Tech specs text",
+                    "type": "string",
+                    "name": "techSpecsText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Measuring text",
+                    "type": "string",
+                    "name": "measuringText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Installation text",
+                    "type": "string",
+                    "name": "installationText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Composition",
+                    "type": "string",
+                    "name": "composition"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Composition image",
+                    "type": "string",
+                    "name": "compositionImage"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour video image",
+                    "type": "string",
+                    "name": "colourVideoImage"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Feed colour description",
+                    "type": "string",
+                    "name": "feedColourDescription"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Instruction ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "instructionId"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Colour show on trade",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "colourShowOnTrade"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour tech spec image",
+                    "type": "string",
+                    "name": "colourTechSpecImage"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Sample colour name override",
+                    "type": "string",
+                    "name": "sampleColourNameOverride"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Offer discount percentage",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "offerDiscountPercentage"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "New product complete",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "newProductComplete"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Is api page name",
+                    "type": "string",
+                    "name": "isApiPageName"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Accessory colour image",
+                    "type": "string",
+                    "name": "accessoryColourImage"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Colour first visible",
+                    "type": "string",
+                    "name": "colourFirstVisible"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Seo page title",
+                    "type": "string",
+                    "name": "seoPageTitle"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Desc copied",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "Desc copied",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "descCopied"
+                    },
+                    "type": "boolean",
+                    "name": "descCopied"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "We love",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "We love",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "weLove"
+                    },
+                    "type": "boolean",
+                    "name": "weLove"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Fabric width",
+                    "type": "string",
+                    "name": "fabricWidth"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Pattern repeat drop",
+                    "type": "string",
+                    "name": "patternRepeatDrop"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "No index",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "No index",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "noIndex"
+                    },
+                    "type": "boolean",
+                    "name": "noIndex"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Item blurb",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "itemBlurb"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Alt sample fabric code",
+                    "type": "string",
+                    "name": "altSampleFabricCode"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Short curated description",
+                    "type": "string",
+                    "name": "shortCuratedDescription"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Digital print sample image name",
+                    "type": "string",
+                    "name": "digitalPrintSampleImageName"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Digital print repeat image name",
+                    "type": "string",
+                    "name": "digitalPrintRepeatImageName"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Digital print approved on",
+                    "type": "string",
+                    "name": "digitalPrintApprovedOn"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Digital print test sent on",
+                    "type": "string",
+                    "name": "digitalPrintTestSentOn"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Frame border colour",
+                    "type": "string",
+                    "name": "frameBorderColour"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Box shadow colour",
+                    "type": "string",
+                    "name": "boxShadowColour"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Product feed image",
+                    "type": "string",
+                    "name": "productFeedImage"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Notes",
+                    "type": "string",
+                    "name": "notes"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Curtain image heading type ID",
+                    "type": "string",
+                    "name": "curtainImageHeadingTypeId"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Include in product feed",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "Include in product feed",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "includeInProductFeed"
+                    },
+                    "type": "boolean",
+                    "name": "includeInProductFeed"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Seo keywords",
+                    "type": "string",
+                    "name": "seoKeywords"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Default product ID",
+                    "type": "string",
+                    "name": "defaultProductId"
+                  },
+                  {
+                    "properties": [
+                      {
+                        "control_type": "integer",
+                        "label": "State",
+                        "parse_output": "integer_conversion",
+                        "type": "integer",
+                        "name": "state"
+                      },
+                      {
+                        "properties": [
+                          {
+                            "control_type": "number",
+                            "label": "ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "id"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Type ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "typeId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Name",
+                            "type": "string",
+                            "name": "name"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Image",
+                            "type": "string",
+                            "name": "image"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Order",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "order"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Text",
+                            "type": "string",
+                            "name": "text"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Barcode",
+                            "type": "string",
+                            "name": "barcode"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Range video",
+                            "type": "string",
+                            "name": "rangeVideo"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Feed range description",
+                            "type": "string",
+                            "name": "feedRangeDescription"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Sample name",
+                            "type": "string",
+                            "name": "sampleName"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Buy page name",
+                            "type": "string",
+                            "name": "buyPageName"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Tech spec image",
+                            "type": "string",
+                            "name": "techSpecImage"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Max width",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "maxWidth"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Max drop",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "maxDrop"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Tech spec text",
+                            "type": "string",
+                            "name": "techSpecText"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "New range format",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "newRangeFormat"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Guarantee ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "guaranteeId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Do not stain ends",
+                            "render_input": {},
+                            "parse_output": {},
+                            "toggle_hint": "Select from option list",
+                            "toggle_field": {
+                              "label": "Do not stain ends",
+                              "control_type": "text",
+                              "toggle_hint": "Use custom value",
+                              "type": "boolean",
+                              "name": "doNotStainEnds"
+                            },
+                            "type": "boolean",
+                            "name": "doNotStainEnds"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Product suffix",
+                            "type": "string",
+                            "name": "productSuffix"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Default slat ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "defaultSlatId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Colour suffix",
+                            "type": "string",
+                            "name": "colourSuffix"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Buy page bottom html",
+                            "type": "string",
+                            "name": "buyPageBottomHtml"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Range group ID",
+                            "type": "string",
+                            "name": "rangeGroupId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Range brand ID",
+                            "type": "string",
+                            "name": "rangeBrandId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Css brand",
+                            "type": "string",
+                            "name": "cssBrand"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Fact one",
+                            "type": "string",
+                            "name": "factOne"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Fact two",
+                            "type": "string",
+                            "name": "factTwo"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Fact three",
+                            "type": "string",
+                            "name": "factThree"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Rrp percent off",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "rrpPercentOff"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Child safety ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "childSafetyId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Ready made curtain lining",
+                            "type": "string",
+                            "name": "readyMadeCurtainLining"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Substrate type ID",
+                            "type": "string",
+                            "name": "substrateTypeId"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "You tube video ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "youTubeVideoId"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Panel configuration ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "panelConfigurationId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Ignore substrate sizes",
+                            "render_input": {},
+                            "parse_output": {},
+                            "toggle_hint": "Select from option list",
+                            "toggle_field": {
+                              "label": "Ignore substrate sizes",
+                              "control_type": "text",
+                              "toggle_hint": "Use custom value",
+                              "type": "boolean",
+                              "name": "ignoreSubstrateSizes"
+                            },
+                            "type": "boolean",
+                            "name": "ignoreSubstrateSizes"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Range flags",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "rangeFlags"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Commodity code ID",
+                            "type": "string",
+                            "name": "commodityCodeId"
+                          },
+                          {
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state"
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "number",
+                                    "label": "ID",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "id"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Name",
+                                    "type": "string",
+                                    "name": "name"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Display name",
+                                    "type": "string",
+                                    "name": "displayName"
+                                  },
+                                  {
+                                    "control_type": "number",
+                                    "label": "Recess drop adjustment",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "recessDropAdjustment"
+                                  },
+                                  {
+                                    "control_type": "number",
+                                    "label": "Recess width adjustment",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "recessWidthAdjustment"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Has slats",
+                                    "render_input": {},
+                                    "parse_output": {},
+                                    "toggle_hint": "Select from option list",
+                                    "toggle_field": {
+                                      "label": "Has slats",
+                                      "control_type": "text",
+                                      "toggle_hint": "Use custom value",
+                                      "type": "boolean",
+                                      "name": "hasSlats"
+                                    },
+                                    "type": "boolean",
+                                    "name": "hasSlats"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ],
+                            "label": "Blind type",
+                            "type": "object",
+                            "name": "blindType"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Panels",
+                            "type": "string",
+                            "name": "panels"
+                          },
+                          {
+                            "name": "features",
+                            "type": "array",
+                            "of": "object",
+                            "label": "Features",
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state"
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "number",
+                                    "label": "ID",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "id"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Name",
+                                    "type": "string",
+                                    "name": "name"
+                                  },
+                                  {
+                                    "control_type": "number",
+                                    "label": "Feature category ID",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "featureCategoryId"
+                                  },
+                                  {
+                                    "properties": [
+                                      {
+                                        "control_type": "integer",
+                                        "label": "State",
+                                        "parse_output": "integer_conversion",
+                                        "type": "integer",
+                                        "name": "state"
+                                      },
+                                      {
+                                        "properties": [
+                                          {
+                                            "control_type": "number",
+                                            "label": "ID",
+                                            "parse_output": "float_conversion",
+                                            "type": "number",
+                                            "name": "id"
+                                          },
+                                          {
+                                            "control_type": "text",
+                                            "label": "Name",
+                                            "type": "string",
+                                            "name": "name"
+                                          }
+                                        ],
+                                        "label": "Data",
+                                        "type": "object",
+                                        "name": "data"
+                                      }
+                                    ],
+                                    "label": "Feature category",
+                                    "type": "object",
+                                    "name": "featureCategory"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "techSpecs",
+                            "type": "array",
+                            "of": "object",
+                            "label": "Tech Specs",
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state"
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "integer",
+                                    "label": "Id",
+                                    "parse_output": "integer_conversion",
+                                    "type": "integer",
+                                    "name": "id"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Name",
+                                    "type": "string",
+                                    "name": "name"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Text",
+                                    "type": "string",
+                                    "name": "text"
+                                  },
+                                  {
+                                    "control_type": "integer",
+                                    "label": "Sort Order",
+                                    "parse_output": "integer_conversion",
+                                    "type": "integer",
+                                    "name": "sortOrder"
+                                  },
+                                  {
+                                    "control_type": "integer",
+                                    "label": "Group Id",
+                                    "parse_output": "integer_conversion",
+                                    "type": "integer",
+                                    "name": "groupId"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "featureBlockImages",
+                            "type": "array",
+                            "of": "object",
+                            "label": "Feature block images",
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state"
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "text",
+                                    "label": "Alt tag",
+                                    "type": "string",
+                                    "name": "AltTag"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Href",
+                                    "type": "string",
+                                    "name": "Href"
+                                  },
+                                  {
+                                    "control_type": "number",
+                                    "label": "ID",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "id"
+                                  },
+                                  {
+                                    "control_type": "number",
+                                    "label": "Sort",
+                                    "parse_output": "float_conversion",
+                                    "type": "number",
+                                    "name": "sort"
+                                  },
+                                  {
+                                    "properties": [
+                                      {
+                                        "control_type": "number",
+                                        "label": "ID",
+                                        "parse_output": "float_conversion",
+                                        "type": "number",
+                                        "name": "id"
+                                      },
+                                      {
+                                        "control_type": "text",
+                                        "label": "Name",
+                                        "type": "string",
+                                        "name": "name"
+                                      }
+                                    ],
+                                    "label": "Feature block type",
+                                    "type": "object",
+                                    "name": "featureBlockType"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "URL",
+                                    "type": "string",
+                                    "name": "url"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Is primary",
+                                    "render_input": {},
+                                    "parse_output": {},
+                                    "toggle_hint": "Select from option list",
+                                    "toggle_field": {
+                                      "label": "Is primary",
+                                      "control_type": "text",
+                                      "toggle_hint": "Use custom value",
+                                      "type": "boolean",
+                                      "name": "isPrimary"
+                                    },
+                                    "type": "boolean",
+                                    "name": "isPrimary"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "featureBlockVideos",
+                            "type": "array",
+                            "of": "object",
+                            "label": "Feature block videos",
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state",
+                                "optional": false
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "text",
+                                    "label": "videoId",
+                                    "type": "string",
+                                    "name": "videoId"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ]
+                          },
+                          {
+                            "properties": [
+                              {
+                                "control_type": "integer",
+                                "label": "State",
+                                "parse_output": "integer_conversion",
+                                "type": "integer",
+                                "name": "state",
+                                "optional": false
+                              },
+                              {
+                                "properties": [
+                                  {
+                                    "control_type": "integer",
+                                    "label": "ID",
+                                    "parse_output": "integer_conversion",
+                                    "type": "integer",
+                                    "name": "id",
+                                    "optional": false
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Name",
+                                    "type": "string",
+                                    "name": "name"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "Css",
+                                    "type": "string",
+                                    "name": "css"
+                                  },
+                                  {
+                                    "control_type": "text",
+                                    "label": "URL",
+                                    "type": "string",
+                                    "name": "url"
+                                  }
+                                ],
+                                "label": "Data",
+                                "type": "object",
+                                "name": "data"
+                              }
+                            ],
+                            "label": "Brand",
+                            "type": "object",
+                            "name": "brand"
+                          }
+                        ],
+                        "label": "Data",
+                        "type": "object",
+                        "name": "data"
+                      }
+                    ],
+                    "label": "Range",
+                    "type": "object",
+                    "name": "range"
+                  },
+                  {
+                    "name": "rawColours",
+                    "type": "array",
+                    "of": "object",
+                    "label": "Raw colours",
+                    "properties": [
+                      {
+                        "control_type": "integer",
+                        "label": "State",
+                        "parse_output": "integer_conversion",
+                        "type": "integer",
+                        "name": "state"
+                      },
+                      {
+                        "properties": [
+                          {
+                            "control_type": "number",
+                            "label": "ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "id"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Display blind type ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "displayBlindTypeId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Icon",
+                            "type": "string",
+                            "name": "icon"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Search keywords",
+                            "type": "string",
+                            "name": "searchKeywords"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Sort order",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "sortOrder"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Text",
+                            "type": "string",
+                            "name": "text"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "URL part",
+                            "type": "string",
+                            "name": "urlPart"
+                          }
+                        ],
+                        "label": "Data",
+                        "type": "object",
+                        "name": "data"
+                      }
+                    ]
+                  },
+                  {
+                    "properties": [
+                      {
+                        "control_type": "integer",
+                        "label": "State",
+                        "parse_output": "integer_conversion",
+                        "type": "integer",
+                        "name": "state"
+                      },
+                      {
+                        "properties": [
+                          {
+                            "control_type": "number",
+                            "label": "ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "id"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "URL",
+                            "type": "string",
+                            "name": "url"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Supplier ID",
+                            "type": "string",
+                            "name": "supplierId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Blind type ID",
+                            "type": "string",
+                            "name": "blindTypeId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Description",
+                            "type": "string",
+                            "name": "description"
+                          },
+                          {
+                            "control_type": "number",
+                            "label": "Site ID",
+                            "parse_output": "float_conversion",
+                            "type": "number",
+                            "name": "siteId"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Fitting video",
+                            "type": "string",
+                            "name": "fittingVideo"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Measuring video",
+                            "type": "string",
+                            "name": "measuringVideo"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Electric instructions",
+                            "type": "string",
+                            "name": "electricInstructions"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Measuring pdf",
+                            "type": "string",
+                            "name": "measuringPdf"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Fitting Url",
+                            "type": "string",
+                            "name": "fittingUrl"
+                          },
+                          {
+                            "control_type": "text",
+                            "label": "Measuring Url",
+                            "type": "string",
+                            "name": "measuringUrl"
+                          }
+                        ],
+                        "label": "Data",
+                        "type": "object",
+                        "name": "data"
+                      }
+                    ],
+                    "label": "Fitting instruction",
+                    "type": "object",
+                    "name": "fittingInstruction"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Colour",
+            "type": "object",
+            "name": "colour"
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "id"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Name",
+                    "type": "string",
+                    "name": "name"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Supplier",
+            "type": "object",
+            "name": "supplier"
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "id"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Name",
+                    "type": "string",
+                    "name": "name"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Supplier ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "supplierId"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Type ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "typeId"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Site ID",
+                    "type": "string",
+                    "name": "siteId"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Base product use",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "Base product use",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "baseProductUse"
+                    },
+                    "type": "boolean",
+                    "name": "baseProductUse"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Supplier discount",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "supplierDiscount"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Expiry date",
+                    "render_input": "date_time_conversion",
+                    "parse_output": "date_time_conversion",
+                    "type": "date_time",
+                    "name": "expiryDate"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Rrp percent off",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "rrpPercentOff"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Inactive",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "inactive"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "priceRecordsAsString",
+                    "type": "string",
+                    "name": "priceRecordsAsString",
+                    "optional": false
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Price table",
+            "name": "priceTable",
+            "type": "object",
+            "of": "object",
+            "optional": false
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "id"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Size",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "size"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Slat size",
+            "type": "object",
+            "name": "slatSize"
+          },
+          {
+            "name": "images",
+            "type": "array",
+            "of": "object",
+            "label": "Images",
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "id"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Product ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "productId"
+                  },
+                  {
+                    "control_type": "number",
+                    "label": "Display order",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "displayOrder"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Display text",
+                    "type": "string",
+                    "name": "displayText"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "URL",
+                    "type": "string",
+                    "name": "url",
+                    "optional": false
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Zoom URL",
+                    "name": "zoomUrl",
+                    "type": "string",
+                    "optional": false
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "Has zoom",
+                    "render_input": {},
+                    "parse_output": {},
+                    "toggle_hint": "Select from option list",
+                    "toggle_field": {
+                      "label": "Has zoom",
+                      "control_type": "text",
+                      "toggle_hint": "Use custom value",
+                      "type": "boolean",
+                      "name": "hasZoom"
+                    },
+                    "type": "boolean",
+                    "name": "hasZoom"
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ]
+          },
+          {
+            "properties": [
+              {
+                "control_type": "integer",
+                "label": "State",
+                "parse_output": "integer_conversion",
+                "type": "integer",
+                "name": "state"
+              },
+              {
+                "properties": [
+                  {
+                    "control_type": "number",
+                    "label": "Product ID",
+                    "parse_output": "float_conversion",
+                    "type": "number",
+                    "name": "productId"
+                  },
+                  {
+                    "control_type": "text",
+                    "label": "URL",
+                    "type": "string",
+                    "name": "url",
+                    "optional": false
+                  }
+                ],
+                "label": "Data",
+                "type": "object",
+                "name": "data"
+              }
+            ],
+            "label": "Heading thumbnail",
+            "type": "object",
+            "name": "headingThumbnail"
+          },
+          {
+            "control_type": "text",
+            "label": "optionGroupsObjectAsString",
+            "name": "optionGroupsObjectAsString",
+            "type": "string",
+            "of": "object",
+            "optional": true
+          }
+        ],
+        "label": "Data",
+        "type": "object",
+        "name": "data"
+      }
+    ],
+    "label": "Payload",
+    "name": "Payload",
+    "type": "object",
+    "optional": false
+  },
+  {
+    "properties": [
+      {
+        "control_type": "text",
+        "label": "Account name",
+        "name": "accountName",
+        "type": "string",
+        "optional": false
+      }
+    ],
+    "label": "Workato",
+    "name": "Workato",
+    "type": "object",
+    "optional": false
+  }
+]
